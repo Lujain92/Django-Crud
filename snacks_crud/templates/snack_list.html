@@ -10,4 +10,7 @@
     <button><a href="{% url 'update' snack.id%}">update</a></button>
     <button><a href="{% url 'delete' snack.id%}">delete</a></button>
 {% endfor %}
+<h1>crate a new snack</h1>
+<button><a href="{% url 'create'%}">create</a></button>
+
 {% endblock content %}
